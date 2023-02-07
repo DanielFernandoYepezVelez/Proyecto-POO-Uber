@@ -3,6 +3,7 @@ from account import Account
 AHORA ES DE TIPO ACCOUNT, Y COMO VES ESTA SOLICITANDO
 LOS DOS DATOS OBLIGATORIOS PARA INSTANCIAR UN OBJETO DE
 ESTE TIPO"""
+
 class Car:
   id            = int
   license       = str 

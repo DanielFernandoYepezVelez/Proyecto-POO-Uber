@@ -5855,7 +5855,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFolzV33TRdFB0="
 							},
-							"name": "driver"
+							"name": "driver",
+							"type": ""
 						}
 					]
 				},
@@ -6222,8 +6223,7 @@
 								},
 								"reference": {
 									"$ref": "AAAAAAFooKj2FUJF/wo="
-								},
-								"navigable": false
+								}
 							},
 							"end2": {
 								"_type": "UMLAssociationEnd",
@@ -6316,8 +6316,7 @@
 								},
 								"reference": {
 									"$ref": "AAAAAAFooKwQpkTUxyg="
-								},
-								"navigable": false
+								}
 							},
 							"end2": {
 								"_type": "UMLAssociationEnd",

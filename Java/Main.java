@@ -1,3 +1,4 @@
+
 class Main {
   public static void main(String[] args) {
 
@@ -9,7 +10,7 @@ class Main {
     // car1.passengenger = 4;
     car1.setPassenger(4);
 
-/*     System.out.println("Car License: " + car1.license +
+  /* System.out.println("Car License: " + car1.license +
     // HASH DEL METODO 'TO STRING' POR ENDE APLICO ATRIBUTO A DRIVER.
     "\n" + "Driver: " + car1.driver.name + "\n" + "Passenger: "
     + /*car1.passengenger car1.getPassenger() + "\n"); */
@@ -44,6 +45,5 @@ class Main {
     UberVan uberVan = new UberVan("MKDIR345", new Account("Yepez Velez Daniel", "456789"));
     uberVan.setPassenger(6);
     uberVan.printDataCar();
-
   }
 }

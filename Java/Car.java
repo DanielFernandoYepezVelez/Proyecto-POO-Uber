@@ -1,3 +1,4 @@
+
 class Car {
   private Integer id;
   private String license;
@@ -18,14 +19,14 @@ class Car {
   //METODO SETTER
   public void setPassenger(Integer passenger) {
     if(passenger == 4) {
-    this.passenger = passenger;
+      this.passenger = passenger;
     } else {
       System.out.println("DEBES TENER 4 PASAJEROS");
     }
   }
 
   void printDataCar() {
-    if(passenger == null) {
+    if(this.passenger == null) {
       System.out.println("LOS PASAJEROS DEBEN SER 4");
     }else {
       System.out.println("Car License: " + license + "\n"

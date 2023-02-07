@@ -1,27 +1,23 @@
-import java.util.ArrayList;
+
 import java.util.Map;
+import java.util.List;
 
 class UberVan extends Car {
-  Map<String, Map<String, Integer>> typeCarAccepted; 
-  ArrayList<String> seatsMaterial;
   Integer passenger;
-
-/*public UberVan(String license, Account driver, Map<String, ArrayList<String, Integer>> typeCarAccepted,
-  ArrayList<String> seatsMaterial) {
-    super(license, driver);
-    this.typeCarAccepted = typeCarAccepted;
-    this.seatsMaterial = seatsMaterial;
-  } */
+  List<String> seatsMaterial;
+  Map<String, Map<String, Integer>> typeCarAccepted; 
 
 public UberVan(String license, Account driver) {
   super(license, driver);
 }
 
-public UberVan(String license, Account driver, Map<String, Map<String, Integer>> typeCarAccepted,
-  ArrayList<String> seatsMaterial) {
+public UberVan(String license, Account driver, 
+               Map<String, Map<String, Integer>> typeCarAccepted,
+               List<String> seatsMaterial
+              ) {
     super(license, driver);
-    this.typeCarAccepted = typeCarAccepted;
     this.seatsMaterial = seatsMaterial;
+    this.typeCarAccepted = typeCarAccepted;
   } 
 
 @Override
